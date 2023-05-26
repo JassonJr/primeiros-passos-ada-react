@@ -3,6 +3,7 @@ import MeuBotao from "./components/MeuBotao";
 import MeuContador from "./components/MeuContador";
 import RenderizacaoCondicional from "./components/RenderizacaoCondicional";
 import ListasChaves from "./components/ListasChaves";
+import Fetch from "./components/Fetch";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MeuContador />
       <RenderizacaoCondicional />
       <ListasChaves />
+      <Fetch />
     </div>
   );
 }
