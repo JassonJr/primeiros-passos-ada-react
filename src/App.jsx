@@ -1,6 +1,7 @@
 import MeuComponente from "./components/MeuComponente";
 import MeuBotao from "./components/MeuBotao";
 import MeuContador from "./components/MeuContador";
+import RenderizacaoCondicional from "./components/RenderizacaoCondicional";
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
       <MeuBotao conteudo="me clique" />
       <MeuBotao conteudo="depois aqui" />
       <MeuBotao conteudo="e por fim aqui" />
-
       <MeuContador />
+      <RenderizacaoCondicional />
     </div>
   );
 }
